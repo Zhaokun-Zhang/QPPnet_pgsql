@@ -1,0 +1,50 @@
+----------------- Options ---------------
+                      SGD: True                          
+               batch_size: 128                           
+                 data_dir: ./data/pgdata                 
+                  dataset: PSQLTPCH                      
+                end_epoch: 250000                        
+                    gamma: 0.95                          
+                  logfile: train_loss.txt                
+                       lr: 0.001                         
+          mean_range_dict: None                          
+                 save_dir: ./saved_model                 
+   save_latest_epoch_freq: 100                           
+                scheduler: True                          
+              start_epoch: 0                             
+                step_size: 30                            
+                test_time: False                         
+                     type: memory                        	[default: latency]
+----------------- End -------------------
+epoch: 0; iter_num: 14080; total_loss: 56.24017333984375; test_loss:1576.2506103515625; mean_abs_diff: 57.55075890204582; mean_abs_relate_err: 2.0218550103516573; R(q): 4.9372136767503205losses: Memory [8464.565899238476]; 
+epoch: 1; iter_num: 28160; total_loss: 41.50592041015625; test_loss:1069.1661376953125; mean_abs_diff: 39.02648744805566; mean_abs_relate_err: 1.6865566455439793; R(q): 5.302372919718267losses: Memory [4558.1289243855035]; 
+epoch: 2; iter_num: 42240; total_loss: 12.861395835876465; test_loss:471.941650390625; mean_abs_diff: 17.183542203434047; mean_abs_relate_err: 1.008574480158978; R(q): 2.938590064059845losses: Memory [982.6855356807646]; 
+epoch: 3; iter_num: 56320; total_loss: 12.483845710754395; test_loss:531.0405883789062; mean_abs_diff: 19.331006146173873; mean_abs_relate_err: 0.636687893814243; R(q): 1.9218888675175358losses: Memory [819.2477748755313]; 
+epoch: 4; iter_num: 70400; total_loss: 10.54566478729248; test_loss:285.2353210449219; mean_abs_diff: 10.361139211843565; mean_abs_relate_err: 0.3757564285666366; R(q): 1.708229754956286losses: Memory [558.2163811033961]; 
+epoch: 5; iter_num: 84480; total_loss: 12.8541841506958; test_loss:262.8228759765625; mean_abs_diff: 9.526609831691774; mean_abs_relate_err: 0.3293886149767193; R(q): 1.5120433413242294losses: Memory [868.3909672010377]; 
+epoch: 6; iter_num: 98560; total_loss: 9.854350090026855; test_loss:203.406005859375; mean_abs_diff: 7.321060845962668; mean_abs_relate_err: 0.19279323778854515; R(q): 1.2327905709635225losses: Memory [401.42323862422035]; 
+epoch: 7; iter_num: 112640; total_loss: 4.265130043029785; test_loss:145.8777313232422; mean_abs_diff: 5.166269238185446; mean_abs_relate_err: 0.17701122911686545; R(q): 1.2077507358579118losses: Memory [77.47645516188732]; 
+epoch: 8; iter_num: 126720; total_loss: 10.50253963470459; test_loss:198.60235595703125; mean_abs_diff: 7.181144032729597; mean_abs_relate_err: 0.13875966818164695; R(q): 1.1435148422139667losses: Memory [322.3987098564872]; 
+epoch: 9; iter_num: 140800; total_loss: 2.234171152114868; test_loss:164.7225341796875; mean_abs_diff: 5.925100826644149; mean_abs_relate_err: 0.10632324454821745; R(q): 1.1110975328184287losses: Memory [54.58058608015646]; 
+epoch: 10; iter_num: 154880; total_loss: 2.9371531009674072; test_loss:127.82085418701172; mean_abs_diff: 4.58269364848081; mean_abs_relate_err: 0.07136361303610105; R(q): 1.0765716811051587losses: Memory [27.619379283086374]; 
+epoch: 11; iter_num: 168960; total_loss: 13.368659973144531; test_loss:263.1703796386719; mean_abs_diff: 9.561769394252684; mean_abs_relate_err: 0.1133694078445212; R(q): 1.11774476645802losses: Memory [432.5681965144863]; 
+epoch: 12; iter_num: 183040; total_loss: 3.2928686141967773; test_loss:87.326171875; mean_abs_diff: 3.1026675586657984; mean_abs_relate_err: 0.04169833083735953; R(q): 1.049217426625715losses: Memory [50.59395185308774]; 
+epoch: 13; iter_num: 197120; total_loss: 1.9904358386993408; test_loss:36.8245849609375; mean_abs_diff: 1.2477557878661572; mean_abs_relate_err: 0.028832813742661476; R(q): 1.035222055384983losses: Memory [48.049055303225856]; 
+epoch: 14; iter_num: 211200; total_loss: 1.5990095138549805; test_loss:46.68923568725586; mean_abs_diff: 1.6177477268446705; mean_abs_relate_err: 0.03222032301867986; R(q): 1.038952402347998losses: Memory [18.494433166669026]; 
+epoch: 15; iter_num: 225280; total_loss: 1.0762120485305786; test_loss:41.37223815917969; mean_abs_diff: 1.4291710192393887; mean_abs_relate_err: 0.02979871083696302; R(q): 1.0359420513230826losses: Memory [6.384792005212913]; 
+epoch: 16; iter_num: 239360; total_loss: 0.7335168123245239; test_loss:37.33088302612305; mean_abs_diff: 1.2733030923778228; mean_abs_relate_err: 0.024966122337698057; R(q): 1.0313065735217517losses: Memory [4.4381270925344]; 
+epoch: 17; iter_num: 253440; total_loss: 1.4424511194229126; test_loss:59.45891189575195; mean_abs_diff: 2.094829176999909; mean_abs_relate_err: 0.027644329708218927; R(q): 1.0335041096890216losses: Memory [15.514562590091417]; 
+epoch: 18; iter_num: 267520; total_loss: 0.3043959438800812; test_loss:32.910552978515625; mean_abs_diff: 1.1071429424515775; mean_abs_relate_err: 0.022335067780798027; R(q): 1.028478433871442losses: Memory [0.2843031772030893]; 
+epoch: 19; iter_num: 281600; total_loss: 1.2186870574951172; test_loss:34.9471435546875; mean_abs_diff: 1.169418415067012; mean_abs_relate_err: 0.02316004015403877; R(q): 1.0291362265690467losses: Memory [7.371605469551512]; 
+epoch: 20; iter_num: 295680; total_loss: 0.7970303893089294; test_loss:31.85991668701172; mean_abs_diff: 1.0671567778565016; mean_abs_relate_err: 0.019745632098252107; R(q): 1.025908668243982losses: Memory [11.921330825531072]; 
+epoch: 21; iter_num: 309760; total_loss: 1.9453418254852295; test_loss:34.297977447509766; mean_abs_diff: 1.1537029846386924; mean_abs_relate_err: 0.020526406505007876; R(q): 1.0267198670646198losses: Memory [29.921457408305365]; 
+epoch: 22; iter_num: 323840; total_loss: 1.4086190462112427; test_loss:38.18864059448242; mean_abs_diff: 1.3089953436656057; mean_abs_relate_err: 0.022119651779995104; R(q): 1.028439248883359losses: Memory [48.90019587132524]; 
+epoch: 23; iter_num: 337920; total_loss: 0.6292866468429565; test_loss:32.69020080566406; mean_abs_diff: 1.0964976569608305; mean_abs_relate_err: 0.019302247656062806; R(q): 1.0254380775448246losses: Memory [6.19753703134286]; 
+epoch: 24; iter_num: 352000; total_loss: 0.9851911067962646; test_loss:34.38377380371094; mean_abs_diff: 1.1644696473752476; mean_abs_relate_err: 0.020623443987144496; R(q): 1.0268821864111173losses: Memory [8.411067745001656]; 
+epoch: 25; iter_num: 366080; total_loss: 0.5006818771362305; test_loss:31.71561622619629; mean_abs_diff: 1.0599763789199523; mean_abs_relate_err: 0.019172155377780827; R(q): 1.0253179692154042losses: Memory [4.963991577534384]; 
+epoch: 26; iter_num: 380160; total_loss: 0.7491094470024109; test_loss:37.825584411621094; mean_abs_diff: 1.2899737599167176; mean_abs_relate_err: 0.021036724842812216; R(q): 1.0273454552077543losses: Memory [8.135719534910727]; 
+epoch: 27; iter_num: 394240; total_loss: 0.9590175151824951; test_loss:33.44374465942383; mean_abs_diff: 1.1261908209219436; mean_abs_relate_err: 0.019505743220383887; R(q): 1.0257573575537398losses: Memory [12.298058863753678]; 
+epoch: 28; iter_num: 408320; total_loss: 2.5652880668640137; test_loss:32.48296356201172; mean_abs_diff: 1.0873394382983492; mean_abs_relate_err: 0.01952386369510391; R(q): 1.0256934883639688losses: Memory [120.52231724704717]; 
+epoch: 29; iter_num: 422400; total_loss: 0.704410195350647; test_loss:31.456226348876953; mean_abs_diff: 1.0513228035681434; mean_abs_relate_err: 0.0188285617841844; R(q): 1.0250135638348818losses: Memory [8.658033294690462]; 
+epoch: 30; iter_num: 436480; total_loss: 0.4384121894836426; test_loss:30.667104721069336; mean_abs_diff: 1.0226601179958923; mean_abs_relate_err: 0.018584144868570678; R(q): 1.0247705873834447losses: Memory [4.596003379019756]; 
+epoch: 31; iter_num: 450560; total_loss: 0.6960934400558472; test_loss:30.884754180908203; mean_abs_diff: 1.0309326091216824; mean_abs_relate_err: 0.018665645060457047; R(q): 1.0248540722345854
